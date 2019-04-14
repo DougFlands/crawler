@@ -6,7 +6,7 @@ import (
 )
 
 func TestFetch(t *testing.T) {
-	result, err := Fetch("http://m.zhenai.com/zhenghun/aba")
+	result, err := Fetch("http://admin.test.17zdd.cn")
 	if err != nil {
 		fmt.Println(err)
 	}
